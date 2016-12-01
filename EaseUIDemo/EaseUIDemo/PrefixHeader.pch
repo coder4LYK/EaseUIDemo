@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  teamlock-user
+//
+//  Created by Kongho Poon on 16/7/2.
+//  Copyright © 2016年 3NCTO. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <EMSDK.h>
+    #import <EaseUI.h>
+
+    #import "Config.h"
+
+
+#endif
+
+#ifdef DEBUG 
+// 调试状态, 打开LOG功能
+    #define NSLog(...) NSLog(__VA_ARGS__)
+#else 
+// 发布状态, 关闭LOG功能
+    #define NSLog(...)
+#endif
+
+/* PrefixHeader_pch */
+
+
+

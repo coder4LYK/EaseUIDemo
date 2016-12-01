@@ -15,18 +15,18 @@ PODS:
   - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
-  - EaseUI (from `https://github.com/3NCTO/easeui-ios-hyphenate-cocoapods.git`, tag `3.2.0`)
+  - EaseUI (from `https://github.com/3NCTO/easeui-ios-hyphenate-cocoapods.git`, tag `3.2.1`)
   - HyphenateSDK (~> 3.1.3)
 
 EXTERNAL SOURCES:
   EaseUI:
     :git: https://github.com/3NCTO/easeui-ios-hyphenate-cocoapods.git
-    :tag: 3.2.0
+    :tag: 3.2.1
 
 CHECKOUT OPTIONS:
   EaseUI:
     :git: https://github.com/3NCTO/easeui-ios-hyphenate-cocoapods.git
-    :tag: 3.2.0
+    :tag: 3.2.1
 
 SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
@@ -37,6 +37,6 @@ SPEC CHECKSUMS:
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 4e6aed70d2671f27210d00379fb39738d5d0c02f
+PODFILE CHECKSUM: 825d0010e1596223770e7c94414b1b8b6d848e83
 
 COCOAPODS: 1.0.1
